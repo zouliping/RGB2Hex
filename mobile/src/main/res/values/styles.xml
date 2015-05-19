@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/rgb_color</item>
+        <item name="colorPrimaryDark">@color/rgb_dark_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="actionMenuTextAppearance">@style/ActionMenuTextAppearance</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ActionMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="EditValueStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/edit_value</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

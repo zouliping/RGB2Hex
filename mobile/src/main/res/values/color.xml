@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="edit_value">#333333</color>
+
+    <color name="rgb_color">#4aa269</color>
+    <color name="rgb_dark_color">#187f3d</color>
+</resources>
